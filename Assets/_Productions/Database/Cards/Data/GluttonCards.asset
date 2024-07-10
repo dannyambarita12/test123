@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7770332836339118863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
+  m_Name: CARD_002
+  m_EditorClassIdentifier: 
+  serializedRow: '{"Name":"PENETRATE","Distance":"Melee","Action":"Attack","StatType":"Strength","EP":3,"Arr":[{"TokenType":"Physical","Min":35,"Max":35}],"Id":"CARD_002"}'
+  references: []
+--- !u!114 &-6851683595163755318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
+  m_Name: CARD_006
+  m_EditorClassIdentifier: 
+  serializedRow: '{"Name":"Annihilate","Distance":"Melee","Action":"Attack","StatType":"Strength","EP":5,"Arr":[{"TokenType":"Dodge","Min":3,"Max":13},{"TokenType":"Psychic","Min":33,"Max":43}],"Id":"CARD_006"}'
+  references: []
+--- !u!114 &-3243020171602459397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
+  m_Name: CARD_007
+  m_EditorClassIdentifier: 
+  serializedRow: '{"Name":"Numbed","Distance":"Melee","Action":"Attack","StatType":"Strength","EP":1,"Arr":[{"TokenType":"Mental","Min":3,"Max":8},{"TokenType":"Block","Min":2,"Max":7},{"TokenType":"Magical","Min":3,"Max":8}],"Id":"CARD_007"}'
+  references: []
+--- !u!114 &-1062923731248507900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
+  m_Name: CARD_001
+  m_EditorClassIdentifier: 
+  serializedRow: '{"Name":"Block and Strike","Distance":"Melee","Action":"Attack","StatType":"Strength","EP":1,"Arr":[{"TokenType":"Block","Min":7,"Max":12},{"TokenType":"Block","Min":7,"Max":17},{"TokenType":"Physical","Min":10,"Max":15}],"Id":"CARD_001"}'
+  references: []
+--- !u!114 &-566159589210638047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
+  m_Name: CARD_004
+  m_EditorClassIdentifier: 
+  serializedRow: '{"Name":"Quick rest","Distance":"Melee","Action":"Attack","StatType":"Strength","EP":0,"Arr":[{"TokenType":"Block","Min":1,"Max":1}],"Id":"CARD_004"}'
+  references: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c9f16a815c438f9dbeaa7d721117d9, type: 3}
+  m_Name: GluttonCards
+  m_EditorClassIdentifier: 
+  rows:
+  - {fileID: -1062923731248507900}
+  - {fileID: -7770332836339118863}
+  - {fileID: 8633424982596319576}
+  - {fileID: -566159589210638047}
+  - {fileID: 7857877118032060468}
+  - {fileID: -6851683595163755318}
+  - {fileID: -3243020171602459397}
+  - {fileID: 2362430658571311167}
+  typeInfo: CardSheet+Row
+--- !u!114 &2362430658571311167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
+  m_Name: CARD_008
+  m_EditorClassIdentifier: 
+  serializedRow: '{"Name":"Step Up","Distance":"Melee","Action":"Attack","StatType":"Strength","EP":2,"Arr":[{"TokenType":"Dodge","Min":3,"Max":13},{"TokenType":"Physical","Min":5,"Max":15},{"TokenType":"Block","Min":2,"Max":7}],"Id":"CARD_008"}'
+  references: []
+--- !u!114 &7857877118032060468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
+  m_Name: CARD_005
+  m_EditorClassIdentifier: 
+  serializedRow: '{"Name":"All In One","Distance":"Melee","Action":"Attack","StatType":"Strength","EP":4,"Arr":[{"TokenType":"Physical","Min":1,"Max":5},{"TokenType":"Magical","Min":3,"Max":8},{"TokenType":"Mental","Min":1,"Max":6},{"TokenType":"Psychic","Min":16,"Max":21}],"Id":"CARD_005"}'
+  references: []
+--- !u!114 &8633424982596319576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
+  m_Name: CARD_003
+  m_EditorClassIdentifier: 
+  serializedRow: '{"Name":"Warming Up","Distance":"Melee","Action":"Attack","StatType":"Strength","EP":1,"Arr":[{"TokenType":"Physical","Min":1,"Max":6},{"TokenType":"Physical","Min":1,"Max":6},{"TokenType":"Physical","Min":1,"Max":6}],"Id":"CARD_003"}'
+  references: []

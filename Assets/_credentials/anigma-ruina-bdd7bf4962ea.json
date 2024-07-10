@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "anigma-ruina",
+  "private_key_id": "bdd7bf4962eadb2106871c4f9dc8a5665b2df61a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC8qfQLKZ/8YPsV\ncm6tmMExpp6MhgDtRYOZA3CGUqxrpTg4LcMmOzZ9eTwJ0RzybIiquWMQ2hkclH5U\npUmmv1qUW1qhMe+it/2pdkz2nmWPcS0ZJMxuOwAI1Z9zzclQBv6JvXGAXlk8uotU\nHvzl/OjP9+73GJzLdLxVQNLqVmP0bG4XTtXFDsxwjfVV+zN7dhGD2BbNCcgC29/o\nLRAZ5j7LPgrRUMGlzAyCeyIJegUF4N/DCxQxmjoIHKF9aD2aW9FRYBkXLkk0bp1t\nzFMmMJO4Kzg9VSXc6yiqTAFPglu4QXMyvFMWAtO9GQhYIHSmh/eWRxPKz+8pzzav\n9swUjPHdAgMBAAECggEAC9rKAOGOsfcOD9zu422TxiDoGYBaEo6ppDW5HleXifQJ\nwk3t0zspQ10Yzq0bGoiDVebsOKTbqxYRkhQIurePY38SBMr0ec8B22IZl+2ACDFe\nWhQb3FlMuUFjEY2+to6Z8+G5fg1vogc+tfx0e6cWoeq8Uz5yq74cD2dRWXQwN610\ny8Piobw/koEYmTcW+D8qhwVmPRKOTwYhrlGQ4yEADoShCrZatT2BJ0E6hehq6UUK\n82UIJy8T0EjRzH8fINC7hRAkPeTkkiCgv1uV65nPDBHo562u1Ff4SmCFzLWoOCe9\nla16Bg+UOVkCjR0IaSyGEw1/xElPfgv+k3VK+1qTgQKBgQDv93lRU3guJqUjFd91\nQduQQXxJOG9NaC9AQZBenv3o4sxEBdwk+gDNAZx/WG+f0y/DUQg6xd6p8R1SNNcS\nKAcBFmO2OdzuUZto41I+3sYSSEPIZzqxdzWMjuk2lEJgM5//EHqgOP81hd/c6aft\nltT4s51yK1ArSMaUPtYKwYxcrQKBgQDJRPePSMCvhitFPQT6kT/RkPDsYrJjoPzl\n/q+kIiQwo2W+YY/gdRMWbTORdovGMlJbNLdoY7LsAtDtuabzgEPiJZ8uJTxQYPKb\nXVLVylrMqmev5J0Yo3PsR5j9YeOLwU6qIVIBOKvyNOib0fZhn93QCdqROXrOPRJL\nMdnbxEvf8QKBgQDLDu3w/KHo47i/vMWPsr/6DP//8ap1pSC+zfw9pWqUxD43nYHR\nJGDDGYb1V791Tj7Pl2VQXpnx0l+ObbpE2ew7ZlfQHpyuag4JLrstClQvqkj5bykC\nfS6qF1CPZ9vXDjhonOg3ZqPHBdcOWAZLDWSAY3Vq4+3+AqJPVfDHv0poLQKBgQCV\nE45CBOMjnz8hk6bCaR9Z+/9XN2tmO/HV8STrb5ZaqExODTliSZUPwWa20ZWKAe/a\nOlu26FG4WgWibyZnqZOeR7t1lILuDkDkLuWSEMXcXkNalvx9KWRNmGKLGxxNgarg\nfLmeyfkh92prL8NMX/sNgp7vfiGl7LpGE/CHxQdmIQKBgHfyqyRmjBkLzPiob6N2\nm+Kxi/Gq8H2AfwcgAp6zANoFN+1g04wqR3K2SWYbnS73+8M8DXzjhwplNgYRmzUd\n6UObWwR07mtbhhdqotk0Dcry9FX6gTj5yEJ8lM3OATDgVWIDphNGJpKSKSSfzyca\n5NGA73EnogrFbp+/P8AwflLA\n-----END PRIVATE KEY-----\n",
+  "client_email": "anigma-dev@anigma-ruina.iam.gserviceaccount.com",
+  "client_id": "105384494861446501312",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/anigma-dev%40anigma-ruina.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

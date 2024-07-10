@@ -1,0 +1,174 @@
+[
+  {
+    "Name": "Block and Strike",
+    "Distance": "Melee",
+    "Action": "Attack",
+    "EP": 1,
+    "Arr": [
+      {
+        "TokenType": "Block",
+        "Min": 7,
+        "Max": 12
+      },
+      {
+        "TokenType": "Block",
+        "Min": 7,
+        "Max": 17
+      },
+      {
+        "TokenType": "Physical",
+        "Min": 10,
+        "Max": 15
+      }
+    ],
+    "Id": "CARD_001"
+  },
+  {
+    "Name": "PENETRATE",
+    "Distance": "Melee",
+    "Action": "Attack",
+    "EP": 3,
+    "Arr": [
+      {
+        "TokenType": "Physical",
+        "Min": 35,
+        "Max": 35
+      }
+    ],
+    "Id": "CARD_002"
+  },
+  {
+    "Name": "Warming Up",
+    "Distance": "Melee",
+    "Action": "Attack",
+    "EP": 1,
+    "Arr": [
+      {
+        "TokenType": "Physical",
+        "Min": 1,
+        "Max": 6
+      },
+      {
+        "TokenType": "Physical",
+        "Min": 1,
+        "Max": 6
+      },
+      {
+        "TokenType": "Physical",
+        "Min": 1,
+        "Max": 6
+      }
+    ],
+    "Id": "CARD_003"
+  },
+  {
+    "Name": "Quick rest",
+    "Distance": "Melee",
+    "Action": "Attack",
+    "EP": 0,
+    "Arr": [
+      {
+        "TokenType": "Block",
+        "Min": 1,
+        "Max": 1
+      }
+    ],
+    "Id": "CARD_004"
+  },
+  {
+    "Name": "All In One",
+    "Distance": "Melee",
+    "Action": "Attack",
+    "EP": 4,
+    "Arr": [
+      {
+        "TokenType": "Physical",
+        "Min": 1,
+        "Max": 5
+      },
+      {
+        "TokenType": "Magical",
+        "Min": 3,
+        "Max": 8
+      },
+      {
+        "TokenType": "Mental",
+        "Min": 1,
+        "Max": 6
+      },
+      {
+        "TokenType": "Psychic",
+        "Min": 16,
+        "Max": 21
+      }
+    ],
+    "Id": "CARD_005"
+  },
+  {
+    "Name": "Annihilate",
+    "Distance": "Melee",
+    "Action": "Attack",
+    "EP": 5,
+    "Arr": [
+      {
+        "TokenType": "Dodge",
+        "Min": 3,
+        "Max": 13
+      },
+      {
+        "TokenType": "Psychic",
+        "Min": 33,
+        "Max": 43
+      }
+    ],
+    "Id": "CARD_006"
+  },
+  {
+    "Name": "Numbed",
+    "Distance": "Melee",
+    "Action": "Attack",
+    "EP": 1,
+    "Arr": [
+      {
+        "TokenType": "Mental",
+        "Min": 3,
+        "Max": 8
+      },
+      {
+        "TokenType": "Block",
+        "Min": 2,
+        "Max": 7
+      },
+      {
+        "TokenType": "Magical",
+        "Min": 3,
+        "Max": 8
+      }
+    ],
+    "Id": "CARD_007"
+  },
+  {
+    "Name": "Step Up",
+    "Distance": "Melee",
+    "Action": "Attack",
+    "EP": 2,
+    "Arr": [
+      {
+        "TokenType": "Dodge",
+        "Min": 3,
+        "Max": 13
+      },
+      {
+        "TokenType": "Physical",
+        "Min": 5,
+        "Max": 15
+      },
+      {
+        "TokenType": "Block",
+        "Min": 2,
+        "Max": 7
+      }
+    ],
+    "Id": "CARD_008"
+  }
+]

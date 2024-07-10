@@ -1,0 +1,243 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5521607682380051870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8eda28981bf07949900f4decb6e5737, type: 3}
+  m_Name: Numbed
+  m_EditorClassIdentifier: 
+  Name: Numbed
+  EnergyCost: 1
+  StatType: 0
+  ActionType: 1
+  DistanceType: 0
+  DiceDatas:
+  - Type: 2
+    MinValue: 3
+    MaxValue: 8
+  - Type: 4
+    MinValue: 2
+    MaxValue: 7
+  - Type: 1
+    MinValue: 3
+    MaxValue: 8
+  dataReference:
+    asset: {fileID: -3243020171602459397, guid: e12bb3a190cf2224f86d41f85b84f346, type: 2}
+--- !u!114 &-4818876342262602495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8eda28981bf07949900f4decb6e5737, type: 3}
+  m_Name: Block and Strike
+  m_EditorClassIdentifier: 
+  Name: Block and Strike
+  EnergyCost: 1
+  StatType: 0
+  ActionType: 1
+  DistanceType: 0
+  DiceDatas:
+  - Type: 4
+    MinValue: 7
+    MaxValue: 12
+  - Type: 4
+    MinValue: 7
+    MaxValue: 17
+  - Type: 0
+    MinValue: 10
+    MaxValue: 15
+  dataReference:
+    asset: {fileID: -1062923731248507900, guid: e12bb3a190cf2224f86d41f85b84f346, type: 2}
+--- !u!114 &-4437774610375355998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8eda28981bf07949900f4decb6e5737, type: 3}
+  m_Name: Step Up
+  m_EditorClassIdentifier: 
+  Name: Step Up
+  EnergyCost: 2
+  StatType: 0
+  ActionType: 1
+  DistanceType: 0
+  DiceDatas:
+  - Type: 5
+    MinValue: 3
+    MaxValue: 13
+  - Type: 0
+    MinValue: 5
+    MaxValue: 15
+  - Type: 4
+    MinValue: 2
+    MaxValue: 7
+  dataReference:
+    asset: {fileID: 2362430658571311167, guid: e12bb3a190cf2224f86d41f85b84f346, type: 2}
+--- !u!114 &-2003296853192365472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8eda28981bf07949900f4decb6e5737, type: 3}
+  m_Name: PENETRATE
+  m_EditorClassIdentifier: 
+  Name: PENETRATE
+  EnergyCost: 3
+  StatType: 0
+  ActionType: 1
+  DistanceType: 0
+  DiceDatas:
+  - Type: 0
+    MinValue: 35
+    MaxValue: 35
+  dataReference:
+    asset: {fileID: -7770332836339118863, guid: e12bb3a190cf2224f86d41f85b84f346, type: 2}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39acdb141e78e2a449030076d3b59689, type: 3}
+  m_Name: Glutton
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: -4818876342262602495}
+  - {fileID: -2003296853192365472}
+  - {fileID: 2015488107898158643}
+  - {fileID: 8869302836598961035}
+  - {fileID: 7515934388768446251}
+  - {fileID: 9211272335278005675}
+  - {fileID: -5521607682380051870}
+  - {fileID: -4437774610375355998}
+--- !u!114 &2015488107898158643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8eda28981bf07949900f4decb6e5737, type: 3}
+  m_Name: Warming Up
+  m_EditorClassIdentifier: 
+  Name: Warming Up
+  EnergyCost: 1
+  StatType: 0
+  ActionType: 1
+  DistanceType: 0
+  DiceDatas:
+  - Type: 0
+    MinValue: 1
+    MaxValue: 6
+  - Type: 0
+    MinValue: 1
+    MaxValue: 6
+  - Type: 0
+    MinValue: 1
+    MaxValue: 6
+  dataReference:
+    asset: {fileID: 8633424982596319576, guid: e12bb3a190cf2224f86d41f85b84f346, type: 2}
+--- !u!114 &7515934388768446251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8eda28981bf07949900f4decb6e5737, type: 3}
+  m_Name: All In One
+  m_EditorClassIdentifier: 
+  Name: All In One
+  EnergyCost: 4
+  StatType: 0
+  ActionType: 1
+  DistanceType: 0
+  DiceDatas:
+  - Type: 0
+    MinValue: 1
+    MaxValue: 5
+  - Type: 1
+    MinValue: 3
+    MaxValue: 8
+  - Type: 2
+    MinValue: 1
+    MaxValue: 6
+  - Type: 3
+    MinValue: 16
+    MaxValue: 21
+  dataReference:
+    asset: {fileID: 7857877118032060468, guid: e12bb3a190cf2224f86d41f85b84f346, type: 2}
+--- !u!114 &8869302836598961035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8eda28981bf07949900f4decb6e5737, type: 3}
+  m_Name: Quick rest
+  m_EditorClassIdentifier: 
+  Name: Quick rest
+  EnergyCost: 0
+  StatType: 0
+  ActionType: 1
+  DistanceType: 0
+  DiceDatas:
+  - Type: 4
+    MinValue: 1
+    MaxValue: 1
+  dataReference:
+    asset: {fileID: -566159589210638047, guid: e12bb3a190cf2224f86d41f85b84f346, type: 2}
+--- !u!114 &9211272335278005675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8eda28981bf07949900f4decb6e5737, type: 3}
+  m_Name: Annihilate
+  m_EditorClassIdentifier: 
+  Name: Annihilate
+  EnergyCost: 5
+  StatType: 0
+  ActionType: 1
+  DistanceType: 0
+  DiceDatas:
+  - Type: 5
+    MinValue: 3
+    MaxValue: 13
+  - Type: 3
+    MinValue: 33
+    MaxValue: 43
+  dataReference:
+    asset: {fileID: -6851683595163755318, guid: e12bb3a190cf2224f86d41f85b84f346, type: 2}

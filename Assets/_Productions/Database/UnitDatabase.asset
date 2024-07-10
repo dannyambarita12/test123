@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5783685165591485537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50bd994858c7ca043ba2424d23137771, type: 3}
+  m_Name: Gluton
+  m_EditorClassIdentifier: 
+  Name: Gluton
+  Portrait: {fileID: 21300000, guid: 6110b0e39f4a9b24892a4d08834a19c8, type: 3}
+  Level: 20
+  StrValue: 20
+  DexValue: 9
+  IntValue: 6
+  cards: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a14da1e93e8ee44c99dbab09f22f3ec, type: 3}
+  m_Name: UnitDatabase
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 6319928713569589136}
+  - {fileID: -5783685165591485537}
+--- !u!114 &6319928713569589136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50bd994858c7ca043ba2424d23137771, type: 3}
+  m_Name: Ara
+  m_EditorClassIdentifier: 
+  Name: Ara
+  Portrait: {fileID: 21300000, guid: 8841b0305abfa6b4fa0b2304a8a9e361, type: 3}
+  Level: 20
+  StrValue: 3
+  DexValue: 2
+  IntValue: 2
+  cards: {fileID: 11400000, guid: d16d25a3c15bf6a449c3a3568455fc07, type: 2}
